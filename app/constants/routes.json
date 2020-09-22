@@ -1,0 +1,13 @@
+{
+  "HOME": "/home",
+  "START": "/",
+  "STARTSETTING": "/startSettings",
+  "MENU": "/menu",
+  "TABLES": "/tables",
+  "ORDERS": "/orders",
+  "USERS": "/users",
+  "STAT": "/stats",
+  "SETTINGS": "/settings",
+  "HELP": "/help",
+  "TEST": "/test"
+}
