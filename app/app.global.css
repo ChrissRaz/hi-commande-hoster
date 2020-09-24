@@ -11,3 +11,7 @@ body {
   margin: 0px;
   overflow-y: hidden;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}

@@ -55,6 +55,21 @@ module.exports = (api) => {
       require('@babel/plugin-syntax-import-meta'),
       [require('@babel/plugin-proposal-class-properties'), { loose: true }],
       require('@babel/plugin-proposal-json-strings'),
+      [
+        "babel-plugin-root-import",
+        {
+          "paths": [
+            {
+              "rootPathSuffix": ".",
+              "rootPathPrefix": "!/"
+            },
+            {
+              "rootPathSuffix": "./app",
+              "rootPathPrefix": "@/"
+            },
+          ]
+        }
+      ],
 
       ...(development ? developmentPlugins : productionPlugins),
     ],
